@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="21.811" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="BookCart Application Demo" name="Add product to cart - Example #1.1" time="11.279">
+<system-out><![CDATA[
+Given User should navigate the link login...................................passed
+And user should login as "guna" and "Guna12345".............................passed
+And user search a book as "Birthday Girl"...................................passed
+When user add book to cart..................................................passed
+Then cart badge should be updated...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BookCart Application Demo" name="Add product to cart - Example #1.2" time="10.35">
+<system-out><![CDATA[
+Given User should navigate the link login...................................passed
+And user should login as "gunass" and "Guna12345"...........................passed
+And user search a book as "Like a Love Story"...............................passed
+When user add book to cart..................................................passed
+Then cart badge should be updated...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
